@@ -5,21 +5,21 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 
-myheading = "Baseball Stats from the 1950s"
-mytitle = "Batting Averages for 3 Hall of Famers"
-x_values = ['1954', '1955', '1956', '1957', '1958', '1959']
-y1_values = [345, 356, 345, 388, 328, 254]
-y2_values = [300, 306, 353, 365, 304, 285]
-y3_values = [280, 314, 328, 322, 326, 355]
+myheading = "Life Expectancy from 1970"
+mytitle = "Life Expectancy of Three Countries"
+x_values = ['1970', '1980', '1990', '2000', '2010']
+y1_values = [71.64, 76.09, 78.84, 81.08, 82.84]
+y2_values = [70.01, 73.61, 73.21, 76.64, 78.54]
+y3_values = [59.08, 66.84, 69.29, 71.96, 75.24]
 color1 = '#fc9403'
 color2 = '#0307fc'
 color3 = '#9003fc'
-name1 = 'Ted Williams'
-name2 = 'Mickey Mantle'
-name3 = 'Hank Aaron'
-tabtitle = 'baseball'
-sourceurl = 'https://www.baseball-reference.com'
-githublink = 'https://github.com/austinlasseter/dash-linechart-example'
+name1 = 'Japan'
+name2 = 'United States'
+name3 = 'China'
+tabtitle = 'Life Expectancy'
+sourceurl = 'https://www.google.com/publicdata/explore?ds=d5bncppjof8f9_&met_y=sp_dyn_le00_in&idim=country:JPN:USA:CHN&hl=en&dl=en'
+githublink = 'https://github.com/ayk-oishi/dash-linechart-example'
 
 ########### Set up the chart
 
